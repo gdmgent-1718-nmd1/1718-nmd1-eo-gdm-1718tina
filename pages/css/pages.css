@@ -6,10 +6,148 @@ body {
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #333;
+    color: #000000;
     line-height: 1.5em;
     padding: 25px;
 }
+div {
+    display: block;
+}
+
+
+.titelfest{
+width: 30%;
+height: 30%;
+
+}
+
+.logo{
+
+    width: 20%;
+    height: 20%;
+
+}
+
+.kleuren{
+    display: flex;
+    background: rgb(255, 255, 255); 
+    color: white;
+    display: inline-block;    
+}
+
+.blauw {
+    flex-direction: row;
+    width: 30%;
+    margin: 10px;
+    padding-top: 10px;
+    background: rgb(84,70,210);
+    text-align: center;
+    color: white;
+}
+
+
+.lichtblauw {
+    flex-direction: row;
+    width: 30%;
+    margin: 10px;
+    padding-top: 10px;
+    background: rgb(178,202,234);
+    text-align: center;
+    color: white;
+}
+
+.zwart {
+    flex-direction: row;
+    width: 30%;
+    margin: 10px;
+    padding-top: 10px;
+    background: #000000;
+    text-align: center;
+    color: white;
+}
+
+.rood {
+    flex-direction: row;
+    width: 30%;
+    margin: 10px;
+    padding-top: 10px;
+    background: rgb(219,0,0);
+    text-align: center;
+    color: white;
+}
+
+
+.wit {
+    flex-direction: row;
+    width: 30%;
+    margin: 10px;
+    padding-top: 10px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+
+
+.donkerbruin {
+    flex-direction: row;
+    width: 30%;
+    margin: 10px;
+    padding-top: 10px;
+    background: rgb(139,44,12);
+    text-align: center;
+    color: white;
+}
+
+.lichtbruin {
+    flex-direction: row;
+    width: 30%;
+    margin: 10px;
+    padding-top: 10px;
+    background: rgb(242,120,11);
+    text-align: center;
+    color: white;
+}
+
+   
+.titel{
+    font-family: 'raleway';
+    font-size: 30px;
+    color: rgb(84,70,210);
+    margin: 10px;
+    padding: 10px 10px 10px;
+
+}
+
+
+.ondertitel{
+    font-family: 'raleway';
+    font-size: 20px;
+    color: #000000;
+    margin: 10px;
+    padding: 5px 5px 5px;
+
+}
+
+.tekst{
+    font-family: 'raleway';
+    font-size: 16px;
+    color: #000000;
+    margin: 10px;
+    padding: 5px 5px 5px;
+
+
+}
+
+.website{
+    font-family: 'raleway';
+    font-size: 16px;
+    color: rgb(84,70,210);
+    margin: 10px;
+    padding: 5px 5px 5px;
+
+}
+    
+    
 
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
