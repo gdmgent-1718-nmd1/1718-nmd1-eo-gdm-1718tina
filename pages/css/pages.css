@@ -146,7 +146,14 @@ height: 30%;
     padding: 5px 5px 5px;
 
 }
+
+.knoppen{
+    background-color: rgb(84,70,210);
+    align-content: center;
+    display: block;
+    width: 500px;
     
+}
     
 
 img {
